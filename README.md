@@ -1,4 +1,4 @@
-#IntelMB
+# IntelMB
 
 🚨 Disclaimer: Apple does not officially support Windows XP on a MacBook Air (2010). Use at your own risk. There is no 100% guarantee it will work.
 
