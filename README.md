@@ -1,40 +1,65 @@
-# IntelMB
-IntelMB is an Project that MacBook Air (2010) can run Windows XP.
+IntelMB – Windows XP auf MacBook Air (2010)
 
-DISCLAMER!
-When you use this Software please know that an MacBook Air (2010) doesent support by Apple Bootcamp
-So there is no really 100% working chance.
+🚨 Disclaimer: Apple does not officially support Windows XP on a MacBook Air (2010). Use at your own risk. There is no 100% guarantee it will work.
 
-How you get started!
+🔹 What is IntelMB?
 
-1. First install the newest release of IntelMB.
+IntelMB is a project that allows you to run Windows XP on a 2010 MacBook Air by patching XP ISOs to include necessary Mac drivers.
 
-2. Install IntelMB ISO Drive Patcher (how that is possible watch on the GitHub Readme)
+⚡ Getting Started
 
-3. Run IntelMB ISO Drive Patcher (.bat)
+Download the latest release of IntelMB.
 
-4. This bring you to the Setup
+Install the IntelMB ISO Drive Patcher
 
-5. Press 1 when you want to load an ready ISO (recommend) Press 2 when you want build from an .iso (only for experts)
+Instructions are available in the GitHub README.
 
-6. This apply an Patch to your XP ISO
+Run the patcher
 
-7. When its done load an burning Programm or the build in one.
+IntelMB_ISO_Drive_Patcher.bat
 
-8. Burn the ISO
+🛠 Setup Options
 
-9. Turn on your MacBook and got to the Boot Menu(When you dont know how you can get to the Boot Menu find an site)
+Press 1 – Load a ready-made ISO (recommended)
 
-10. Then start the CD and you get to an screen
+Press 2 – Build from an existing ISO (advanced users only)
 
-11. Load the File intel-mb-patch.iso
+The patcher will automatically modify your Windows XP ISO with the necessary drivers and settings.
 
-12. Wait till its done
+💿 Burn the ISO
 
-13. And then press Space to reboot
+After patching, use your preferred ISO burning software (or the built-in tool) to burn the ISO to a CD/DVD.
 
-14. You are back in the Menu load Windows-XP.iso
+💻 Installing on MacBook Air
 
-15. And then it installs Windows XP normally
+Turn on your MacBook and enter the Boot Menu
 
-16. Now its done you can use Windows XP on the MacBook Air (2010)
+(Search online if you’re not sure how.)
+
+Boot from the CD.
+
+Load the file:
+
+intel-mb-patch.iso
+
+
+Wait until the process finishes, then press Space to reboot.
+
+From the menu, load:
+
+Windows-XP.iso
+
+
+Install Windows XP normally.
+
+✅ Done!
+
+You now have Windows XP running on your MacBook Air (2010). Enjoy!
+
+⚠️ Tips
+
+Make snapshots of your VM before testing.
+
+Use VM testing first if possible, before trying on actual hardware.
+
+Only use trusted sources for ISO and drivers.
